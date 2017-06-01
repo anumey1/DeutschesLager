@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_item_bitches"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/android_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:id="@+id/text_container"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingLeft="16dp">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="@color/blackMofo"
+        android:id="@+id/list_text2"
+        tools:text="Null"
+        android:layout_weight="1"
+        android:gravity="bottom"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:id="@+id/list_text1"
+        tools:text="One"
+        android:textColor="@color/blackMofo"
+        android:gravity="top"
+        />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_play_circle_filled_black_24dp"
+
+
+        />
+
+
+
+</LinearLayout>
